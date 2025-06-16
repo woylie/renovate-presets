@@ -6,7 +6,8 @@
   "schedule": ["* 0-3 1 * 6", "* 0-3 1 * 7"],
   "timezone": "Europe/Copenhagen",
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
+    "schedule": ["* 0-3 1 * 6", "* 0-3 1 * 7"]
   },
   "rangeStrategy": "pin",
   "packageRules": [
