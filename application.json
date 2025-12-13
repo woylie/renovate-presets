@@ -3,7 +3,6 @@
   "extends": ["config:best-practices", "schedule:nonOfficeHours"],
   "enabled": true,
   "reviewersFromCodeOwners": true,
-  "schedule": ["nonOfficeHours"],
   "timezone": "Europe/Copenhagen",
   "lockFileMaintenance": {
     "enabled": true
