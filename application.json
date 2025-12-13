@@ -9,7 +9,7 @@
     "enabled": true,
     "schedule": ["* 0-3 1 * 6", "* 0-3 1 * 7"]
   },
-  "rangeStrategy": "pin",
+  "rangeStrategy": "auto",
   "packageRules": [
     {
       "matchDepTypes": ["dev", "devDependencies"],
