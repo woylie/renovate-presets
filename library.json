@@ -1,13 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": ["config:recommended", "schedule:nonOfficeHours"],
   "enabled": true,
   "reviewersFromCodeOwners": true,
-  "schedule": ["* 0-3 1 * 6", "* 0-3 1 * 7"],
   "timezone": "Europe/Copenhagen",
   "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["* 0-3 1 * 6", "* 0-3 1 * 7"]
+    "enabled": true
   },
   "rangeStrategy": "widen",
   "packageRules": [
