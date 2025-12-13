@@ -3,7 +3,7 @@
   "extends": ["config:best-practices"],
   "enabled": true,
   "reviewersFromCodeOwners": true,
-  "schedule": ["* 0-3 1 * 6", "* 0-3 1 * 7"],
+  "schedule": ["nonOfficeHours"],
   "timezone": "Europe/Copenhagen",
   "lockFileMaintenance": {
     "enabled": true,
