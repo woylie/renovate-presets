@@ -16,7 +16,7 @@
     },
     {
       "matchFileNames": ["demo/**", "example/**"],
-      "automerge": true,
+      "automerge": "auto",
       "rangeStrategy": "pin"
     },
     {
