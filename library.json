@@ -16,8 +16,8 @@
     },
     {
       "matchFileNames": ["demo/**", "example/**"],
-      "automerge": "auto",
-      "rangeStrategy": "pin"
+      "automerge": true,
+      "rangeStrategy": "auto"
     },
     {
       "groupName": "esbuild",
