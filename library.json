@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", "schedule:nonOfficeHours"],
+  "extends": ["config:recommended", "schedule:weekends"],
   "enabled": true,
   "reviewersFromCodeOwners": true,
   "timezone": "Europe/Copenhagen",
