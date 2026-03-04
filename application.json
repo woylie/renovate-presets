@@ -5,7 +5,7 @@
     ":configMigration",
     "abandonments:recommended",
     "security:minimumReleaseAgeNpm",
-    "schedule:nonOfficeHours"
+    "schedule:weekends"
   ],
   "enabled": true,
   "reviewersFromCodeOwners": true,
