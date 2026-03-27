@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", "schedule:monthly"],
+  "extends": ["config:recommended", "helpers:pinGitHubActionDigestsToSemver", "schedule:monthly"],
   "enabled": true,
   "reviewersFromCodeOwners": true,
   "timezone": "Europe/Copenhagen",
@@ -8,6 +8,9 @@
     "enabled": true
   },
   "rangeStrategy": "widen",
+  "minimumReleaseAge": "7 days",
+  "prCreation": "not-pending",
+  "internalChecksFilter": "strict",
   "packageRules": [
     {
       "matchDepTypes": ["dev", "devDependencies"],
