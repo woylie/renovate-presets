@@ -4,6 +4,7 @@
     "config:recommended",
     ":configMigration",
     "abandonments:recommended",
+    "helpers:pinGitHubActionDigestsToSemver",
     "security:minimumReleaseAgeNpm",
     "schedule:monthly"
   ],
@@ -14,6 +15,9 @@
     "enabled": true
   },
   "rangeStrategy": "auto",
+  "minimumReleaseAge": "7 days",
+  "prCreation": "not-pending",
+  "internalChecksFilter": "strict",
   "packageRules": [
     {
       "matchDepTypes": ["dev", "devDependencies"],
