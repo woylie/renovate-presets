@@ -4,6 +4,8 @@
     "config:recommended",
     ":configMigration",
     "abandonments:recommended",
+    "helpers:githubDigestChangelogs",
+    "helpers:pinGitHubActionDigests",
     "helpers:pinGitHubActionDigestsToSemver",
     "security:minimumReleaseAgeNpm",
     "schedule:monthly"
