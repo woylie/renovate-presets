@@ -8,6 +8,7 @@
     "schedule:monthly"
   ],
   "enabled": true,
+  "dependencyDashboard": false,
   "reviewersFromCodeOwners": true,
   "timezone": "Europe/Copenhagen",
   "lockFileMaintenance": {
