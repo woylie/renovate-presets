@@ -7,7 +7,6 @@
     "helpers:githubDigestChangelogs",
     "helpers:pinGitHubActionDigests",
     "helpers:pinGitHubActionDigestsToSemver",
-    "security:minimumReleaseAgeNpm",
     "schedule:monthly"
   ],
   "enabled": true,
